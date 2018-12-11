@@ -17,6 +17,7 @@ public class AccessLoggerListenerImpl implements AccessLoggerListener {
      */
     @Override
     public void onLogger(AccessLoggerInfo loggerInfo) {
+        //此处写日志记录到数据库的代码
         System.out.println("自定义日志注解成功！");
     }
 }
